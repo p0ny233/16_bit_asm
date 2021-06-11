@@ -1,9 +1,0 @@
-
- Start  Stop   Length Name               Class
-
- 00000H 0000FH 00010H DATA               
- 00010H 0001FH 00010H STACK              
- 00020H 0003AH 0001BH CODE               
-
-Fatal: No program entry point
-
