@@ -1,0 +1,1 @@
+t2  --- 测试 jmp 指令标号的范围【short，near，far】 
