@@ -26,7 +26,7 @@ assume cs:code
 	
 	code segment
 		start:
-			mov dh,2 ; 行
+			mov dh,0 ; 行
 			mov dl,9 ; 列
 			mov cl,2 ; 颜色
 			
@@ -65,14 +65,14 @@ assume cs:code
 			pushrowstack:
 				push ax; 将 行的地址 push 到栈中
 			
-			mov cl,dl ; 列 cl = 0c
+			mov cl,dl ; 列 cl = 0
 			jcxz coladd ;如果 列为0 
 			
 			mov al,2
 			mul cl
 			
 			coladd:
-				; mov 
+				
 				push ax
 				
 			

@@ -10,6 +10,7 @@
 ;		 (ax)= 结果的低16位
 ;		 (cx)= 余数
 ; 例如：1000000/10 【F4240H / 0AH 】
+; 该程序的逻辑是根据 数学公式 编写的
 
 assume cs:code
 	stack segment
@@ -38,9 +39,11 @@ assume cs:code
 				; push ax ;4240 进栈
 				; push dx ;000F 进栈
 				; mov bx,65536
-				mov bx,ax ;寄存器寻址
 				
+				;这里的目的是将除数放到ax中，因为div指令，8位除数默认存放在 AL，低16位在 AX，高16位存放在 DX
+				mov bx,ax ;寄存器寻址
 				mov ax,dx
+				
 				mov dx,0
 				div cx ;dx = 0005 , ax = 0001
 				
