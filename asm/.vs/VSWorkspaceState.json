@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Test_flag"
   ],
-  "SelectedNode": "\\jqd_11_2.asm",
+  "SelectedNode": "\\Test_flag\\test_adc_flag3.asm",
   "PreviewInSolutionExplorer": false
 }

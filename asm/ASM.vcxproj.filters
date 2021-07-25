@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="10_10.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="6_2_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="6_2_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="8_6.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="8_9dup.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="9_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="9_3.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_3.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_4.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_5_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_10_5_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jqd_11_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10v2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10v3.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10v4.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10v5_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10v6_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab10_3_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab5_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab8.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab9_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="lab9_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="p7_6.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="p_6_1_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="p_6_3.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q10_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_6.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_7v1_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_7v1_2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_7v1_3.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q7_9.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="q8_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ret_10_1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t2.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t3db.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t3dd.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t3dw.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t4JMP.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t4_jmp_back.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="t4_jmp_forward.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test1.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_af.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_cf.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_flag.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_of.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_pf.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_sf.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_sub_flag.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="test_flag\test_unsigned.asm">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

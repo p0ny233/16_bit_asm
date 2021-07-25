@@ -17,5 +17,6 @@ assume cs:code
 			mov ax,10CEH
 			add ax,0030H
 			
+			
 	code ends
 end start
