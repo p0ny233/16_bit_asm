@@ -6,10 +6,11 @@
 assume cs:code
 	code segment
 		start:
-			jmp short s1  ; 这条指令占用两个字节
+			;jmp short s1  ; 这条指令占用两个字节
+			jmp far ptr s1  ; 这条指令占用两个字节
 	
 		; 只能设置 127 个字节，向后转移 127个字节
-			db 127 dup (0)
+			db 300 dup (0)
 		s1:
 			mov ax,1234h
 		
