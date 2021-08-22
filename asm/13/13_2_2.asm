@@ -12,10 +12,6 @@ assume cs:code , ds:data
 	code segment
 
 		start:
-
-
-
-
 			; 安装中断程序
 			mov ax,0
 			mov es,ax
